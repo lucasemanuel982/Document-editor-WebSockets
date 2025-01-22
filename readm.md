@@ -7,14 +7,12 @@
 </head>
 <body>
     <h1>Real-Time Collaborative Document Management System</h1>
-
     <h2>Descrição do Projeto</h2>
     <p>
         Este projeto é uma aplicação para gerenciamento de documentos colaborativos em tempo real. 
         Ele permite que múltiplos usuários editem documentos simultaneamente, visualizem alterações em tempo real e interajam de forma segura através de autenticação JWT e WebSockets. 
         Foi desenvolvido utilizando tecnologias modernas do ecossistema JavaScript.
     </p>
-
     <h2>Funcionalidades</h2>
     <h3>Front-end</h3>
     <ul>
@@ -38,7 +36,6 @@
             </ul>
         </li>
     </ul>
-
     <h3>Back-end</h3>
     <ul>
         <li><strong>API em Tempo Real</strong>: Uso de <strong>WebSockets</strong> com a biblioteca <code>socket.io</code> para comunicação bidirecional.</li>
@@ -51,7 +48,6 @@
         </li>
         <li><strong>Usuários Online</strong>: Gerenciamento e exibição em tempo real de usuários conectados por documento.</li>
     </ul>
-
     <h2>Tecnologias Utilizadas</h2>
     <h3>Back-end</h3>
     <ul>
@@ -63,22 +59,18 @@
         <li><strong>MongoDB</strong>: Banco de dados para persistência de documentos e usuários.</li>
         <li><strong>dotenv</strong>: Gerenciamento de variáveis de ambiente.</li>
     </ul>
-
     <h3>Front-end</h3>
     <ul>
         <li><strong>HTML, CSS, JavaScript</strong>: Interface do usuário.</li>
         <li><strong>Socket.IO Client</strong>: Comunicação com o servidor WebSocket.</li>
         <li><strong>Cookies</strong>: Controle de sessões.</li>
     </ul>
-
     <h2>Pré-requisitos</h2>
     <ul>
         <li><strong>Node.js</strong> (v16 ou superior)</li>
         <li><strong>MongoDB</strong> (instância local ou em nuvem)</li>
         <li><strong>Gerenciador de pacotes</strong>: npm ou yarn</li>
     </ul>
-
-
     <h2>Principais Eventos WebSocket</h2>
     <table border="1">
         <thead>
